@@ -5,6 +5,19 @@ import axios from "axios";
 import { useLocation } from "react-router-dom";
 import queryString from "query-string";
 
+/*
+My filter on Year also works
+
+you can try it out using 
+http://localhost:3000/?year=2019
+
+we could have stored the year and state filter in URL.
+But due to limited time unable to do that
+
+you can apply multiple filter on states and year.
+
+*/
+
 const BASE_URL =
   "https://datausa.io/api/data?drilldowns=State&measures=Population";
 
